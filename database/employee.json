@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "employeeName": "Nguyen Van Vuong",
+        "dateOfBirth": "2005-12-11",
+        "image": "https://static.minhtuanmobile.com/uploads/editer/images/2024/02/bo-hinh-nen-meme-meo-duong-tang-thinh-ca-cuc-cute-3.webp",
+        "email": "vuongk5@gmail.com"
+    },
+    {
+        "id": 2,
+        "employeeName": "Nguyen Van Vung",
+        "dateOfBirth": "2001-11-11",
+        "image": "https://static.minhtuanmobile.com/uploads/editer/images/2024/02/bo-hinh-nen-meme-meo-duong-tang-thinh-ca-cuc-cute-3.webp",
+        "email": "v@gmail.com"
+    },
+    {
+        "id": 3,
+        "employeeName": "Nguyen Van Vuon",
+        "dateOfBirth": "2002-10-11",
+        "image": "https://static.minhtuanmobile.com/uploads/editer/images/2024/02/bo-hinh-nen-meme-meo-duong-tang-thinh-ca-cuc-cute-3.webp",
+        "email": "vu5@gmail.com"
+    },
+    {
+        "id": 4,
+        "employeeName": "Nguyen Van Vong",
+        "dateOfBirth": "2004-12-11",
+        "image": "https://static.minhtuanmobile.com/uploads/editer/images/2024/02/bo-hinh-nen-meme-meo-duong-tang-thinh-ca-cuc-cute-3.webp",
+        "email": "vuon5@gmail.com"
+    }
+]
