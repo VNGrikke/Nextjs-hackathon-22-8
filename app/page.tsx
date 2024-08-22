@@ -23,7 +23,7 @@ export default function Page() {
         setEmployees(response.data);
       })
       .catch(error => {
-        console.error("Lỗi khi tải dữ liệu nhân viên", error);
+        console.error("Loi tai du lieu nhan vien");
       });
   }, []);
 
@@ -32,13 +32,13 @@ export default function Page() {
   };
 
   const handleDelete = async (employee: Employee) => {
-    const isConfirmed = window.confirm(`Bạn có chắc chắn muốn xóa nhân viên ${employee.employeeName} không?`);
+    const isConfirmed = window.confirm(`Ban co muon xoa ${employee.employeeName} ?`);
     if (isConfirmed) {
       try {
         await axios.delete(`http://localhost:3000/api/employees/${employee.id}`);
         setEmployees(employees.filter(emp => emp.id !== employee.id));
       } catch (error) {
-        console.error("Lỗi khi xóa nhân viên", error);
+        console.error("Loi khi xoa nhan vien");
       }
     }
   };
